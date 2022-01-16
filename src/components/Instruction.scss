@@ -1,0 +1,27 @@
+.instruction-wrapper {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 15px;
+
+    .step {
+        flex-shrink: 0;
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--bkg);
+        background-color: var(--orange);
+        display: block;
+        width: 36px;
+        height: 36px;
+        display: grid;
+        place-items: center;
+        border-radius: 6px;
+        line-height: 1;
+        padding-bottom: 8px;
+    }
+
+    .text {
+        font-family: 'Montserrat';
+    }
+}

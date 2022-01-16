@@ -1,0 +1,16 @@
+.app-wrapper {
+ 
+
+    footer {
+        font-family: 'Montserrat';
+        color: var(--grey-footer);
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+    
+        a {
+            color: inherit;
+            font-weight: 700;
+        }
+    }
+}

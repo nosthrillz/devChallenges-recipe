@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800;900&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+  --text: #000;
+  --bkg: #fff;
+  --orange: #F2994A;
+  --grey: #BDBDBD;
+  --grey-footer: #a9a9a9;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+body, p, h1, h2, h3, h4, ul, li {
+    margin:0;
+    padding: 0;
+}
+
+li { list-style-type: none;}
+

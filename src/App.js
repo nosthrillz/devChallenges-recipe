@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import IngredientList from "./components/IngredientList";
+import InstructionList from "./components/InstructionList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="app-wrapper">
+      <IngredientList />
+      <InstructionList />
+      <footer>
+        created by{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/nosthrillz"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
-        </a>
-      </header>
+          NoSThrillZ
+        </a>{" "}
+        - devChallenges.io
+      </footer>
     </div>
   );
 }

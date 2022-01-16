@@ -1,0 +1,26 @@
+.ingredient-wrapper {
+    display: flex;
+    gap: 17px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+
+    .check {
+        width: 21px;
+        height: 21px;
+        background-color: transparent;
+        border: 1px solid #828282;
+        border-radius: 4px;
+        flex-shrink: 0;
+    }
+
+    .italic {
+        
+    }
+
+    .regular {
+
+    }
+    
+}
