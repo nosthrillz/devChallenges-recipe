@@ -79,4 +79,15 @@ export const INGREDIENTS = [
   },
 ];
 
-export const SUMMARY = ["12 servings", "45 minutes", "1 hour", "7,75 hours"];
+export const SUMMARY = [
+  { text: "yields", amount: "12 servings" },
+  { text: "prep time", amount: "45 minutes" },
+  { text: "cook time", amount: "1 hour" },
+  { text: "total time", amount: "7,75 hours" },
+];
+
+export const INTRO = {
+  title: "Classic Cheescake Recipe",
+  description:
+    "Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.",
+};

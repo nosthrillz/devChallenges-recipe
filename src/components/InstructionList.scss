@@ -5,6 +5,7 @@
         font-weight: 700;
         font-size: 24px;
         padding-bottom: 8px;
+        
     }
     .source {
         font-style: italic;
@@ -12,5 +13,8 @@
         color: var(--grey);
         font-size: 16px;
         font-weight: 400;
+        @media screen and (max-width: 700px) {
+            font-size: 12px;
+        }
     }
 }

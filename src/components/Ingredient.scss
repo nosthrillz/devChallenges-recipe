@@ -5,6 +5,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 25px;
+    @media screen and (max-width: 700px) {
+        font-size: 14px;
+        line-height: 20px;
+    }
 
     .check {
         width: 21px;
@@ -14,13 +18,4 @@
         border-radius: 4px;
         flex-shrink: 0;
     }
-
-    .italic {
-        
-    }
-
-    .regular {
-
-    }
-    
 }
